@@ -35,6 +35,8 @@ public class DatabaseSeeder {
         try {
             Statement stmt = connection.createStatement();
 
+            stmt.executeUpdate("DELETE FROM quizAttempts");
+
             User alice = userDAO.getUserByEmail("alice@example.com");
             if (alice == null) {
                 userDAO.addUser(new User("alice", "alice@example.com", authManager.hashPassword("password1")));
