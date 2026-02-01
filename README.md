@@ -1,3 +1,10 @@
+***
+This project is developed as a group project during my exchange semester in Queensland University of Technology. As the schedule during the course was tight, project still contains small errors and inefficiencies.
+
+***
+
+
+
 QUIZ MASTER
 
 - Introduction
